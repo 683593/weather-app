@@ -11,7 +11,7 @@ searchform.addEventListener('submit', (e) => {
     renderContent = "Loading...";
     console.log("Form Submit hit");
     container.innerHTML = "<p>" + renderContent + "</p>"
-    fetch('http://localhost:3000/api/forcast/' + search.value).then(response => {
+    fetch('/api/forcast/' + search.value).then(response => {
         response.json().then(data => {
             if (data.error) {
                 container.innerHTML = "<p>" + data.error + "</p>"
