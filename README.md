@@ -1,3 +1,3 @@
-#Weather APP
-
-Node JS initiative Weather App
+# NodeJs Weather API
+Simple and straight forward Weather API
+#Bootstrap, #Nodejs, #JavaScript
